@@ -1,57 +1,1752 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Balaji Digital Agency | Your Growth, Our Digital Expertise</title>
-    
-    <meta name="description" content="Balaji Digital Agency in New Delhi, India helps businesses grow online with premium websites, branding, SEO, Meta Ads, Google Ads, and custom digital marketing solutions.">
-    <meta name="keywords" content="Digital Marketing Agency, Website Development, Meta Ads, Google Ads, SEO Optimization, Social Media Marketing, Branding, Graphic Design, Video Editing, New Delhi, Balaji Digital Agency">
-    <meta name="author" content="Balaji Digital Agency">
-    <link rel="canonical" href="https://balajidigitalagency.github.io/">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Balaji Digital Agency | Your Growth, Our Digital Expertise</title>
+  <meta name="description" content="Balaji Digital Agency is a premium digital marketing agency in New Delhi offering website development, SEO, Meta Ads, Google Ads, branding, social media marketing, content creation, and lead generation.">
+  <meta name="keywords" content="Balaji Digital Agency, digital marketing agency New Delhi, website development, SEO, Meta Ads, Google Ads, branding, social media marketing, lead generation">
+  <meta name="author" content="Balaji Digital Agency">
+  <link rel="canonical" href="https://your-domain.com/">
+  <link rel="icon" href="profile.jpg" type="image/jpeg">
 
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://balajidigitalagency.github.io/">
-    <meta property="og:title" content="Balaji Digital Agency | Your Growth, Our Digital Expertise">
-    <meta property="og:description" content="Premium digital marketing agency helping businesses build their online presence and scale rapidly with custom digital strategies.">
-    <meta property="og:image" content="profile.jpg">
+  <meta property="og:title" content="Balaji Digital Agency">
+  <meta property="og:description" content="Your Growth, Our Digital Expertise. Premium digital marketing services for modern businesses.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-domain.com/">
+  <meta property="og:image" content="profile.jpg">
 
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://balajidigitalagency.github.io/">
-    <meta property="twitter:title" content="Balaji Digital Agency | Your Growth, Our Digital Expertise">
-    <meta property="twitter:description" content="Premium digital marketing agency helping businesses build their online presence and scale rapidly with custom digital strategies.">
-    <meta property="twitter:image" content="profile.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Balaji Digital Agency">
+  <meta name="twitter:description" content="Grow your business with smart digital marketing.">
+  <meta name="twitter:image" content="profile.jpg">
 
-    <link rel="icon" type="image/png" href="profile.jpg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Balaji Digital Agency",
+    "image": "profile.jpg",
+    "email": "balajidigitalagency1@gmail.com",
+    "telephone": "+917877451229",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "New Delhi",
+      "addressCountry": "IN"
+    },
+    "description": "Digital marketing agency offering website development, SEO, paid ads, branding, social media marketing, content creation, and lead generation.",
+    "url": "https://your-domain.com/",
+    "priceRange": "$$"
+  }
+  </script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0B1220;
+      --blue: #2563EB;
+      --gold: #F4B400;
+      --white: #FFFFFF;
+      --gray: #F8FAFC;
+      --text: #CBD5E1;
+      --muted: #94A3B8;
+      --line: rgba(255,255,255,.14);
+      --glass: rgba(255,255,255,.08);
+      --shadow: 0 24px 70px rgba(0,0,0,.28);
+      --radius: 8px;
+    }
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--primary);
+      color: var(--white);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Balaji Digital Agency",
-      "image": "profile.jpg",
-      "@id": "https://balajidigitalagency.github.io/",
-      "url": "https://balajidigitalagency.github.io/",
-      "telephone": "+917877451229",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "New Delhi",
-        "addressLocality": "New Delhi",
-        "addressRegion": "Delhi",
-        "postalCode": "110001",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "28.6139",
-        "longitude": "77.2090"
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek":
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; display: block; }
+    button, input, textarea { font: inherit; }
+
+    .loader {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at 50% 40%, rgba(37,99,235,.35), transparent 34%), var(--primary);
+      transition: opacity .6s ease, visibility .6s ease;
+    }
+
+    .loader.hidden { opacity: 0; visibility: hidden; }
+
+    .loader-mark {
+      width: 86px;
+      height: 86px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      border: 1px solid rgba(255,255,255,.2);
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(18px);
+      box-shadow: 0 0 60px rgba(244,180,0,.28);
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    .loader-mark img {
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 3px;
+      z-index: 9998;
+      background: linear-gradient(90deg, var(--blue), var(--gold));
+    }
+
+    .aurora {
+      position: fixed;
+      inset: 0;
+      z-index: -4;
+      background:
+        radial-gradient(circle at 10% 15%, rgba(37,99,235,.35), transparent 28%),
+        radial-gradient(circle at 85% 20%, rgba(244,180,0,.18), transparent 28%),
+        radial-gradient(circle at 35% 90%, rgba(14,165,233,.16), transparent 34%),
+        linear-gradient(135deg, #070B14 0%, #0B1220 55%, #111827 100%);
+    }
+
+    .aurora::before,
+    .aurora::after {
+      content: "";
+      position: absolute;
+      width: 55vw;
+      height: 55vw;
+      min-width: 520px;
+      min-height: 520px;
+      border-radius: 50%;
+      filter: blur(58px);
+      opacity: .48;
+      animation: drift 16s ease-in-out infinite alternate;
+    }
+
+    .aurora::before {
+      top: -18%;
+      left: -12%;
+      background: conic-gradient(from 120deg, rgba(37,99,235,.8), rgba(244,180,0,.26), rgba(255,255,255,.05), rgba(37,99,235,.8));
+    }
+
+    .aurora::after {
+      right: -14%;
+      bottom: -24%;
+      background: conic-gradient(from 20deg, rgba(244,180,0,.4), rgba(37,99,235,.65), rgba(255,255,255,.05), rgba(244,180,0,.4));
+      animation-delay: -4s;
+    }
+
+    .noise {
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      pointer-events: none;
+      opacity: .22;
+      background-image: linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+      background-size: 70px 70px;
+      mask-image: linear-gradient(to bottom, black, transparent 85%);
+    }
+
+    .cursor-glow {
+      position: fixed;
+      width: 420px;
+      height: 420px;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: -2;
+      transform: translate(-50%, -50%);
+      background: radial-gradient(circle, rgba(37,99,235,.24), transparent 65%);
+      filter: blur(10px);
+    }
+
+    .particles {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .particle {
+      position: absolute;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.55);
+      animation: floatParticle linear infinite;
+      box-shadow: 0 0 16px rgba(244,180,0,.45);
+    }
+
+    .container {
+      width: min(1180px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+    .section {
+      position: relative;
+      padding: 110px 0;
+    }
+
+    .section.light {
+      background: var(--gray);
+      color: #0F172A;
+    }
+
+    .section-title {
+      max-width: 760px;
+      margin: 0 auto 52px;
+      text-align: center;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+      color: var(--gold);
+      font-size: .78rem;
+      font-weight: 800;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before,
+    .eyebrow::after {
+      content: "";
+      width: 26px;
+      height: 1px;
+      background: currentColor;
+    }
+
+    h1, h2, h3 {
+      line-height: 1.06;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      font-size: clamp(2.6rem, 6vw, 5.8rem);
+      max-width: 980px;
+      margin: 0 auto 18px;
+    }
+
+    h2 {
+      font-size: clamp(2rem, 4vw, 3.7rem);
+      margin-bottom: 18px;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    p { color: var(--text); }
+    .light p, .light .muted { color: #475569; }
+    .muted { color: var(--muted); }
+
+    .nav {
+      position: fixed;
+      top: 18px;
+      left: 50%;
+      z-index: 1000;
+      width: min(1180px, calc(100% - 28px));
+      transform: translateX(-50%);
+      border: 1px solid rgba(255,255,255,.13);
+      border-radius: 999px;
+      background: rgba(11,18,32,.58);
+      box-shadow: 0 16px 55px rgba(0,0,0,.22);
+      backdrop-filter: blur(22px);
+      transition: .3s ease;
+    }
+
+    .nav.scrolled {
+      top: 10px;
+      background: rgba(11,18,32,.86);
+    }
+
+    .nav-inner {
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 0 12px 0 18px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .brand img {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid rgba(244,180,0,.85);
+      box-shadow: 0 0 24px rgba(244,180,0,.25);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      list-style: none;
+      color: rgba(255,255,255,.82);
+      font-size: .94rem;
+      font-weight: 700;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      color: var(--white);
+      background: rgba(255,255,255,.08);
+      cursor: pointer;
+    }
+
+    .menu-toggle span {
+      display: block;
+      width: 18px;
+      height: 2px;
+      margin: 4px auto;
+      background: currentColor;
+    }
+
+    .btn {
+      position: relative;
+      isolation: isolate;
+      overflow: hidden;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 22px;
+      border: 0;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 850;
+      color: var(--white);
+      background: linear-gradient(135deg, var(--blue), #1D4ED8);
+      box-shadow: 0 15px 38px rgba(37,99,235,.34);
+      transition: transform .24s ease, box-shadow .24s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 20px 50px rgba(37,99,235,.45);
+    }
+
+    .btn.gold {
+      color: #111827;
+      background: linear-gradient(135deg, var(--gold), #FFD66B);
+      box-shadow: 0 15px 38px rgba(244,180,0,.24);
+    }
+
+    .btn.ghost {
+      border: 1px solid rgba(255,255,255,.18);
+      background: rgba(255,255,255,.08);
+      box-shadow: none;
+    }
+
+    .ripple {
+      position: absolute;
+      border-radius: 50%;
+      transform: scale(0);
+      background: rgba(255,255,255,.48);
+      animation: ripple .6s linear;
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: grid;
+      align-items: center;
+      padding: 150px 0 90px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-logo {
+      width: 128px;
+      height: 128px;
+      margin: 0 auto 26px;
+      border-radius: 50%;
+      padding: 5px;
+      background: linear-gradient(135deg, var(--gold), var(--blue), rgba(255,255,255,.6));
+      box-shadow: 0 0 48px rgba(37,99,235,.44), 0 0 35px rgba(244,180,0,.28);
+      animation: levitate 5s ease-in-out infinite;
+    }
+
+    .hero-logo img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--primary);
+    }
+
+    .typing-line {
+      min-height: 35px;
+      margin: 0 auto 16px;
+      color: var(--gold);
+      font-size: clamp(1.04rem, 2.5vw, 1.45rem);
+      font-weight: 850;
+    }
+
+    .typing-line::after {
+      content: "|";
+      margin-left: 4px;
+      animation: blink .8s infinite;
+    }
+
+    .hero-subtitle {
+      max-width: 760px;
+      margin: 0 auto 32px;
+      font-size: clamp(1.02rem, 1.6vw, 1.22rem);
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-bottom: 54px;
+    }
+
+    .hero-proof {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .proof-pill {
+      padding: 13px 16px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(18px);
+      color: rgba(255,255,255,.82);
+      font-weight: 750;
+    }
+
+    .floating-shape {
+      position: absolute;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(18px);
+      color: var(--gold);
+      font-size: 1.9rem;
+      box-shadow: var(--shadow);
+      animation: floatShape 7s ease-in-out infinite;
+    }
+
+    .shape-1 { top: 24%; left: 7%; width: 86px; height: 86px; }
+    .shape-2 { right: 7%; top: 32%; width: 76px; height: 76px; animation-delay: -2s; }
+    .shape-3 { left: 13%; bottom: 15%; width: 72px; height: 72px; animation-delay: -4s; }
+
+    .blob {
+      position: absolute;
+      border-radius: 42% 58% 60% 40%;
+      opacity: .42;
+      z-index: 0;
+      animation: morph 12s ease-in-out infinite;
+    }
+
+    .blob.one {
+      width: 260px;
+      height: 260px;
+      right: 14%;
+      bottom: 11%;
+      background: rgba(37,99,235,.22);
+    }
+
+    .blob.two {
+      width: 190px;
+      height: 190px;
+      left: 18%;
+      top: 18%;
+      background: rgba(244,180,0,.16);
+      animation-delay: -5s;
+    }
+
+    .glass-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: linear-gradient(145deg, rgba(255,255,255,.11), rgba(255,255,255,.045));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(22px);
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1.05fr .95fr;
+      gap: 34px;
+      align-items: center;
+    }
+
+    .about-panel { padding: 34px; }
+
+    .about-list {
+      display: grid;
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .about-list li {
+      display: flex;
+      gap: 12px;
+      list-style: none;
+      color: var(--text);
+    }
+
+    .check {
+      flex: 0 0 24px;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #111827;
+      background: var(--gold);
+      font-size: .85rem;
+      font-weight: 900;
+    }
+
+    .profile-showcase {
+      min-height: 430px;
+      position: relative;
+      overflow: hidden;
+      display: grid;
+      place-items: center;
+    }
+
+    .profile-showcase::before {
+      content: "";
+      position: absolute;
+      inset: 12%;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(37,99,235,.4), transparent 64%);
+      animation: pulse 3s ease-in-out infinite;
+    }
+
+    .profile-showcase img {
+      position: relative;
+      width: min(285px, 70%);
+      aspect-ratio: 1;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid rgba(255,255,255,.16);
+      box-shadow: 0 30px 90px rgba(0,0,0,.38);
+    }
+
+    .grid { display: grid; gap: 18px; }
+    .services-grid { grid-template-columns: repeat(4, 1fr); }
+
+    .service-card,
+    .feature-card,
+    .portfolio-card,
+    .price-card,
+    .testimonial,
+    .faq-item,
+    .timeline-item,
+    .contact-card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(15,23,42,.08);
+      border-radius: var(--radius);
+      background: var(--white);
+      box-shadow: 0 18px 45px rgba(15,23,42,.08);
+      transition: transform .28s ease, box-shadow .28s ease, border-color .28s ease;
+    }
+
+    .service-card:hover,
+    .feature-card:hover,
+    .portfolio-card:hover,
+    .price-card:hover,
+    .testimonial:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 28px 70px rgba(15,23,42,.14);
+      border-color: rgba(37,99,235,.22);
+    }
+
+    .tilt { transform-style: preserve-3d; }
+    .service-card { padding: 26px; min-height: 210px; }
+
+    .icon {
+      width: 52px;
+      height: 52px;
+      display: grid;
+      place-items: center;
+      margin-bottom: 18px;
+      border-radius: 16px;
+      color: var(--white);
+      background: linear-gradient(135deg, var(--blue), #38BDF8);
+      box-shadow: 0 16px 32px rgba(37,99,235,.24);
+      font-size: 1.35rem;
+    }
+
+    .service-card h3,
+    .feature-card h3,
+    .portfolio-card h3,
+    .price-card h3,
+    .testimonial h3,
+    .timeline-item h3,
+    .contact-card h3 { color: #0F172A; }
+
+    .features-grid,
+    .counter-grid { grid-template-columns: repeat(4, 1fr); }
+
+    .feature-card { padding: 28px; }
+    .counter-grid { margin-top: 28px; }
+
+    .counter-card {
+      padding: 26px;
+      text-align: center;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.08);
+      backdrop-filter: blur(18px);
+    }
+
+    .counter {
+      display: block;
+      color: var(--gold);
+      font-size: 2.35rem;
+      line-height: 1;
+      font-weight: 950;
+    }
+
+    .portfolio-grid { grid-template-columns: repeat(3, 1fr); }
+
+    .portfolio-card {
+      min-height: 260px;
+      color: var(--white);
+      background:
+        linear-gradient(145deg, rgba(11,18,32,.2), rgba(11,18,32,.86)),
+        radial-gradient(circle at 18% 18%, rgba(244,180,0,.45), transparent 30%),
+        radial-gradient(circle at 82% 22%, rgba(37,99,235,.7), transparent 34%),
+        linear-gradient(135deg, #0B1220, #1E293B);
+      border-color: rgba(255,255,255,.12);
+      padding: 26px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+
+    .portfolio-card h3,
+    .portfolio-card p { color: var(--white); }
+
+    .portfolio-tag {
+      align-self: flex-start;
+      margin-bottom: auto;
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: #111827;
+      background: var(--gold);
+      font-size: .76rem;
+      font-weight: 900;
+    }
+
+    .pricing-grid {
+      grid-template-columns: repeat(3, 1fr);
+      align-items: stretch;
+    }
+
+    .price-card { padding: 32px; }
+
+    .price-card.popular {
+      border: 1px solid rgba(244,180,0,.55);
+      transform: translateY(-10px);
+      box-shadow: 0 32px 80px rgba(37,99,235,.16);
+    }
+
+    .badge {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      padding: 7px 11px;
+      border-radius: 999px;
+      color: #111827;
+      background: var(--gold);
+      font-size: .74rem;
+      font-weight: 900;
+    }
+
+    .price {
+      margin: 22px 0;
+      color: #0F172A;
+      font-size: 2.6rem;
+      line-height: 1;
+      font-weight: 950;
+    }
+
+    .price span {
+      color: #64748B;
+      font-size: .95rem;
+      font-weight: 750;
+    }
+
+    .price-list {
+      display: grid;
+      gap: 12px;
+      margin: 24px 0 28px;
+      list-style: none;
+      color: #475569;
+    }
+
+    .price-list li {
+      display: flex;
+      gap: 10px;
+    }
+
+    .wave {
+      display: block;
+      width: 100%;
+      height: 74px;
+      margin-top: -1px;
+    }
+
+    .timeline {
+      position: relative;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 16px;
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 5%;
+      right: 5%;
+      top: 40px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--blue), var(--gold));
+      opacity: .6;
+    }
+
+    .timeline-item {
+      z-index: 1;
+      padding: 24px 18px;
+      text-align: center;
+    }
+
+    .step {
+      width: 50px;
+      height: 50px;
+      margin: 0 auto 18px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      color: var(--white);
+      background: linear-gradient(135deg, var(--blue), var(--gold));
+      font-weight: 950;
+      box-shadow: 0 14px 32px rgba(37,99,235,.24);
+    }
+
+    .testimonials-grid { grid-template-columns: repeat(3, 1fr); }
+    .testimonial { padding: 30px; }
+
+    .stars {
+      margin-bottom: 16px;
+      color: var(--gold);
+      letter-spacing: 2px;
+    }
+
+    .client {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: linear-gradient(135deg, var(--blue), var(--gold));
+      font-weight: 950;
+    }
+
+    .faq-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      display: grid;
+      gap: 12px;
+    }
+
+    .faq-question {
+      width: 100%;
+      min-height: 68px;
+      border: 0;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 0 22px;
+      color: #0F172A;
+      cursor: pointer;
+      text-align: left;
+      font-weight: 900;
+    }
+
+    .faq-icon {
+      width: 30px;
+      height: 30px;
+      flex: 0 0 30px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--white);
+      background: var(--blue);
+      transition: transform .25s ease;
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height .3s ease;
+    }
+
+    .faq-answer p { padding: 0 22px 22px; }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+      background: var(--gold);
+      color: #111827;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 24px;
+    }
+
+    .contact-card { padding: 28px; }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+
+    .field { display: grid; gap: 7px; }
+    .field.full { grid-column: 1 / -1; }
+
+    label {
+      color: #334155;
+      font-size: .9rem;
+      font-weight: 850;
+    }
+
+    input,
+    textarea {
+      width: 100%;
+      border: 1px solid #E2E8F0;
+      border-radius: var(--radius);
+      outline: 0;
+      padding: 14px 15px;
+      color: #0F172A;
+      background: #F8FAFC;
+      transition: border-color .2s ease, box-shadow .2s ease;
+    }
+
+    textarea {
+      min-height: 138px;
+      resize: vertical;
+    }
+
+    input:focus,
+    textarea:focus {
+      border-color: rgba(37,99,235,.7);
+      box-shadow: 0 0 0 4px rgba(37,99,235,.12);
+    }
+
+    .form-actions {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 14px;
+      margin: 22px 0;
+    }
+
+    .contact-line {
+      display: flex;
+      gap: 12px;
+      align-items: flex-start;
+      color: #475569;
+    }
+
+    .map-placeholder {
+      min-height: 230px;
+      border-radius: var(--radius);
+      border: 1px solid #E2E8F0;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      color: #475569;
+      background:
+        linear-gradient(90deg, rgba(37,99,235,.08) 1px, transparent 1px),
+        linear-gradient(rgba(37,99,235,.08) 1px, transparent 1px),
+        #F8FAFC;
+      background-size: 34px 34px;
+    }
+
+    .footer {
+      position: relative;
+      padding: 74px 0 30px;
+      background: #070B14;
+      color: var(--white);
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr .7fr .9fr .7fr;
+      gap: 34px;
+      margin-bottom: 44px;
+    }
+
+    .footer h3 { color: var(--white); }
+
+    .footer ul {
+      display: grid;
+      gap: 10px;
+      list-style: none;
+      color: var(--text);
+    }
+
+    .socials {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .social {
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 50%;
+      background: rgba(255,255,255,.07);
+      transition: .2s ease;
+      font-weight: 900;
+    }
+
+    .social:hover {
+      transform: translateY(-4px);
+      color: #111827;
+      background: var(--gold);
+    }
+
+    .copyright {
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      text-align: center;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    .whatsapp-float,
+    .back-top {
+      position: fixed;
+      right: 22px;
+      z-index: 999;
+      width: 54px;
+      height: 54px;
+      display: grid;
+      place-items: center;
+      border-radius: 50%;
+      border: 0;
+      cursor: pointer;
+      color: var(--white);
+      box-shadow: 0 18px 42px rgba(0,0,0,.25);
+      transition: transform .2s ease, opacity .2s ease;
+    }
+
+    .whatsapp-float {
+      bottom: 88px;
+      background: #25D366;
+      font-size: 1.6rem;
+    }
+
+    .back-top {
+      bottom: 24px;
+      opacity: 0;
+      pointer-events: none;
+      background: linear-gradient(135deg, var(--blue), var(--gold));
+      font-size: 1.4rem;
+    }
+
+    .back-top.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .whatsapp-float:hover,
+    .back-top:hover {
+      transform: translateY(-4px) scale(1.04);
+    }
+
+    .reveal {
+      opacity: 0;
+      transition: opacity .8s ease, transform .8s ease;
+    }
+
+    .fade-up { transform: translateY(36px); }
+    .zoom-in { transform: scale(.92); }
+    .slide-left { transform: translateX(42px); }
+    .slide-right { transform: translateX(-42px); }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    @keyframes drift {
+      to { transform: translate(12%, 10%) rotate(24deg) scale(1.08); }
+    }
+
+    @keyframes pulse {
+      50% { transform: scale(1.05); }
+    }
+
+    @keyframes levitate {
+      50% { transform: translateY(-12px); }
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    @keyframes floatShape {
+      50% { transform: translateY(-20px) rotate(6deg); }
+    }
+
+    @keyframes morph {
+      50% {
+        border-radius: 58% 42% 38% 62%;
+        transform: translateY(-18px) rotate(12deg);
+      }
+    }
+
+    @keyframes floatParticle {
+      from { transform: translateY(105vh); opacity: 0; }
+      15%, 85% { opacity: .75; }
+      to { transform: translateY(-15vh); opacity: 0; }
+    }
+
+    @keyframes ripple {
+      to { transform: scale(4); opacity: 0; }
+    }
+
+    @media (max-width: 1080px) {
+      .services-grid { grid-template-columns: repeat(3, 1fr); }
+      .timeline { grid-template-columns: repeat(3, 1fr); }
+      .timeline::before { display: none; }
+    }
+
+    @media (max-width: 860px) {
+      .nav { border-radius: 26px; }
+      .nav-inner { height: 66px; }
+
+      .nav-links {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: calc(100% + 10px);
+        display: none;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: 22px;
+        background: rgba(11,18,32,.96);
+        backdrop-filter: blur(22px);
+      }
+
+      .nav-links.open { display: flex; }
+      .nav-links a { display: block; padding: 12px 14px; }
+      .nav .btn { display: none; }
+      .menu-toggle { display: block; }
+
+      .hero { padding-top: 130px; }
+
+      .hero-proof,
+      .about-grid,
+      .contact-grid,
+      .footer-grid { grid-template-columns: 1fr; }
+
+      .services-grid,
+      .features-grid,
+      .counter-grid,
+      .portfolio-grid,
+      .pricing-grid,
+      .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+
+      .price-card.popular { transform: none; }
+      .floating-shape, .blob { display: none; }
+    }
+
+    @media (max-width: 620px) {
+      .container { width: min(100% - 28px, 1180px); }
+      .section { padding: 82px 0; }
+
+      .brand span {
+        max-width: 172px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .hero-logo {
+        width: 108px;
+        height: 108px;
+      }
+
+      .hero-proof,
+      .services-grid,
+      .features-grid,
+      .counter-grid,
+      .portfolio-grid,
+      .pricing-grid,
+      .timeline,
+      .testimonials-grid,
+      .form-grid { grid-template-columns: 1fr; }
+
+      .proof-pill { border-radius: var(--radius); }
+
+      .about-panel,
+      .contact-card,
+      .price-card,
+      .testimonial { padding: 24px; }
+
+      .whatsapp-float,
+      .back-top { right: 14px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: .001ms !important;
+        animation-iteration-count: 1 !important;
+        scroll-behavior: auto !important;
+        transition-duration: .001ms !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="loader" id="loader">
+    <div class="loader-mark">
+      <img src="profile.jpg" alt="Balaji Digital Agency logo">
+    </div>
+  </div>
+
+  <div class="progress" id="progress"></div>
+  <div class="aurora"></div>
+  <div class="noise"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+  <div class="particles" id="particles"></div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <img src="profile.jpg" alt="Balaji Digital Agency logo">
+        <span>Balaji Digital Agency</span>
+      </a>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-actions">
+    <a class="btn gold" href="#contact">Get Free Consultation</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</div>
+  </nav>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="blob one"></div>
+      <div class="blob two"></div>
+      <div class="floating-shape shape-1" data-parallax="0.18">↗</div>
+      <div class="floating-shape shape-2" data-parallax="0.12">◎</div>
+      <div class="floating-shape shape-3" data-parallax="0.22">✦</div>
+
+  <div class="container hero-content">
+    <div class="hero-logo reveal zoom-in">
+      <img src="profile.jpg" alt="Balaji Digital Agency profile image">
+    </div>
+
+    <div class="typing-line" id="typingText"></div>
+    <h1 class="reveal fade-up">Grow Your Business with Smart Digital Marketing</h1>
+    <p class="hero-subtitle reveal fade-up">Balaji Digital Agency builds high-performing websites, campaigns, brands, and content systems that help ambitious businesses attract attention, generate leads, and scale with confidence.</p>
+
+    <div class="hero-actions reveal fade-up">
+      <a href="#contact" class="btn gold">Get Started</a>
+      <a href="#services" class="btn ghost">View Services</a>
+    </div>
+
+    <div class="hero-proof reveal fade-up">
+      <div class="proof-pill">Strategy-first campaigns</div>
+      <div class="proof-pill">Premium creative execution</div>
+      <div class="proof-pill">Growth-focused reporting</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container about-grid">
+    <div class="about-panel glass-card reveal slide-right">
+      <span class="eyebrow">About Us</span>
+      <h2>Digital presence built with clarity, creativity, and performance.</h2>
+      <p>Balaji Digital Agency is a professional digital marketing company in New Delhi helping businesses build a powerful online presence. We combine brand thinking, modern website design, paid advertising, SEO, and content creation into one growth-focused digital system.</p>
+      <ul class="about-list">
+        <li><span class="check">✓</span><span>Tailored digital strategies for local businesses, startups, and growing brands.</span></li>
+        <li><span class="check">✓</span><span>Premium designs, conversion-focused campaigns, and transparent communication.</span></li>
+        <li><span class="check">✓</span><span>Support across websites, ads, social media, branding, creative production, and leads.</span></li>
+      </ul>
+    </div>
+
+    <div class="profile-showcase glass-card reveal slide-left">
+      <img src="profile.jpg" loading="lazy" alt="Balaji Digital Agency brand profile">
+    </div>
+  </div>
+</section>
+
+<section class="section light" id="services">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">Services</span>
+      <h2>Everything your brand needs to grow online.</h2>
+      <p>From launch-ready websites to performance ads and creative content, our services are designed to turn attention into measurable business growth.</p>
+    </div>
+
+    <div class="grid services-grid">
+      <article class="service-card tilt reveal fade-up"><div class="icon">⌘</div><h3>Website Development</h3><p>Fast, responsive, premium websites designed to convert visitors into customers.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">M</div><h3>Meta Ads</h3><p>Targeted Facebook and Instagram campaigns for leads, traffic, and sales.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">G</div><h3>Google Ads</h3><p>Search and display campaigns that capture buyers with high purchase intent.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">↑</div><h3>SEO</h3><p>Technical, on-page, and content SEO to improve visibility and organic reach.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">#</div><h3>Social Media Marketing</h3><p>Consistent social strategies that build trust, engagement, and brand recall.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">◇</div><h3>Branding</h3><p>Brand identity systems that make your business look polished and memorable.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">✎</div><h3>Graphic Design</h3><p>Premium posts, ads, banners, brochures, and business creatives.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">▶</div><h3>Video Editing</h3><p>Short-form and promotional videos crafted for modern digital platforms.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">✦</div><h3>Content Creation</h3><p>Scroll-stopping content ideas, copy, visuals, and campaign assets.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">◎</div><h3>Lead Generation</h3><p>Funnels and campaigns that help turn interest into qualified enquiries.</p></article>
+      <article class="service-card tilt reveal fade-up"><div class="icon">↗</div><h3>Business Consulting</h3><p>Practical growth guidance for positioning, offers, and digital execution.</p></article>
+    </div>
+  </div>
+</section>
+
+<svg class="wave" viewBox="0 0 1440 74" preserveAspectRatio="none" aria-hidden="true"><path fill="#F8FAFC" d="M0,20 C180,70 360,70 540,30 C720,-10 900,-10 1080,30 C1260,70 1350,54 1440,20 L1440,0 L0,0 Z"></path></svg>
+
+<section class="section" id="why">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">Why Choose Us</span>
+      <h2>Premium execution with practical business sense.</h2>
+      <p>We keep the work beautiful, measurable, and easy to understand, so you always know what is happening and why it matters.</p>
+    </div>
+
+    <div class="grid features-grid">
+      <article class="feature-card tilt reveal fade-up"><div class="icon">✦</div><h3>Creative Team</h3><p>Fresh ideas, elegant design, and campaign assets built for modern audiences.</p></article>
+      <article class="feature-card tilt reveal fade-up"><div class="icon">☰</div><h3>Transparent Communication</h3><p>Clear updates, honest guidance, and no confusing marketing language.</p></article>
+      <article class="feature-card tilt reveal fade-up"><div class="icon">◎</div><h3>Customized Strategy</h3><p>Every plan is shaped around your business goals, audience, and budget.</p></article>
+      <article class="feature-card tilt reveal fade-up"><div class="icon">24</div><h3>Long-Term Support</h3><p>Ongoing optimization and support as your brand grows and changes.</p></article>
+    </div>
+
+    <div class="grid counter-grid">
+      <div class="counter-card reveal zoom-in"><span class="counter" data-target="100">0</span><p>Projects</p></div>
+      <div class="counter-card reveal zoom-in"><span class="counter" data-target="50">0</span><p>Happy Clients</p></div>
+      <div class="counter-card reveal zoom-in"><span class="counter" data-target="500">0</span><p>Designs</p></div>
+      <div class="counter-card reveal zoom-in"><span class="counter" data-target="24">0</span><p>Support</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section light" id="portfolio">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">Portfolio</span>
+      <h2>Modern work samples for growing brands.</h2>
+      <p>A glimpse of the kinds of digital assets, identities, and campaigns we create for businesses that want to look trusted and perform better.</p>
+    </div>
+
+    <div class="grid portfolio-grid">
+      <article class="portfolio-card tilt reveal fade-up"><span class="portfolio-tag">Web</span><h3>Website Design</h3><p>Premium landing pages and business websites.</p></article>
+      <article class="portfolio-card tilt reveal fade-up"><span class="portfolio-tag">Social</span><h3>Social Media Creatives</h3><p>Engaging posts, stories, and promotional graphics.</p></article>
+      <article class="portfolio-card tilt reveal fade-up"><span class="portfolio-tag">Brand</span><h3>Branding</h3><p>Visual identity and brand direction for modern businesses.</p></article>
+      <article class="portfolio-card tilt reveal fade-up"><span class="portfolio-tag">Ads</span><h3>Ads Campaign</h3><p>Lead generation and sales-focused paid campaigns.</p></article>
+      <article class="portfolio-card tilt reveal fade-up"><span class="portfolio-tag">Logo</span><h3>Logo Design</h3><p>Clean, memorable marks for professional brands.</p></article>
+      <article class="portfolio-card tilt reveal fade-up"><span class="portfolio-tag">Identity</span><h3>Business Identity</h3><p>Complete visual systems for trust and recognition.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section light" id="pricing">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">Pricing</span>
+      <h2>Flexible packages for every growth stage.</h2>
+      <p>Choose a starting point and we will customize the scope around your goals, timelines, and budget.</p>
+    </div>
+
+    <div class="grid pricing-grid">
+      <article class="price-card tilt reveal slide-right">
+        <h3>Starter</h3>
+        <p>For new businesses building a professional online foundation.</p>
+        <div class="price">₹9,999 <span>/ project</span></div>
+        <ul class="price-list">
+          <li><span class="check">✓</span> Basic website or profile setup</li>
+          <li><span class="check">✓</span> Social media creative kit</li>
+          <li><span class="check">✓</span> Basic SEO setup</li>
+          <li><span class="check">✓</span> 7 days support</li>
+        </ul>
+        <a href="#contact" class="btn">Choose Starter</a>
+      </article>
+
+      <article class="price-card popular tilt reveal fade-up">
+        <span class="badge">Most Popular</span>
+        <h3>Professional</h3>
+        <p>For active businesses ready to generate leads and scale visibility.</p>
+        <div class="price">₹24,999 <span>/ month</span></div>
+        <ul class="price-list">
+          <li><span class="check">✓</span> Website improvements</li>
+          <li><span class="check">✓</span> Meta or Google Ads setup</li>
+          <li><span class="check">✓</span> 12 social creatives</li>
+          <li><span class="check">✓</span> Monthly performance report</li>
+        </ul>
+        <a href="#contact" class="btn gold">Choose Professional</a>
+      </article>
+
+      <article class="price-card tilt reveal slide-left">
+        <h3>Premium</h3>
+        <p>For brands that want complete strategy, creative, and growth support.</p>
+        <div class="price">₹49,999 <span>/ month</span></div>
+        <ul class="price-list">
+          <li><span class="check">✓</span> Full digital marketing plan</li>
+          <li><span class="check">✓</span> Ads, SEO, content, and branding</li>
+          <li><span class="check">✓</span> Video and design production</li>
+          <li><span class="check">✓</span> Priority long-term support</li>
+        </ul>
+        <a href="#contact" class="btn">Choose Premium</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="process">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">Process</span>
+      <h2>A focused path from first call to measurable growth.</h2>
+    </div>
+
+    <div class="timeline">
+      <article class="timeline-item reveal fade-up"><div class="step">1</div><h3>Consultation</h3><p>We understand your goals, audience, and current digital presence.</p></article>
+      <article class="timeline-item reveal fade-up"><div class="step">2</div><h3>Planning</h3><p>We shape the right strategy, services, and execution roadmap.</p></article>
+      <article class="timeline-item reveal fade-up"><div class="step">3</div><h3>Design</h3><p>We create premium visuals, websites, brand assets, and campaign material.</p></article>
+      <article class="timeline-item reveal fade-up"><div class="step">4</div><h3>Marketing</h3><p>We launch campaigns across ads, search, social, and content channels.</p></article>
+      <article class="timeline-item reveal fade-up"><div class="step">5</div><h3>Optimization</h3><p>We monitor performance and improve the work based on real data.</p></article>
+      <article class="timeline-item reveal fade-up"><div class="step">6</div><h3>Growth</h3><p>We scale what works and keep building your digital momentum.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section light" id="testimonials">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">Testimonials</span>
+      <h2>Trusted by businesses that care about quality.</h2>
+    </div>
+
+    <div class="grid testimonials-grid">
+      <article class="testimonial reveal fade-up">
+        <div class="stars">★★★★★</div>
+        <p>Balaji Digital Agency redesigned our online presence and helped us get more quality enquiries within the first month. The communication was clear and professional.</p>
+        <div class="client"><div class="avatar">RS</div><div><h3>Rohit Sharma</h3><p>Retail Business Owner</p></div></div>
+      </article>
+
+      <article class="testimonial reveal fade-up">
+        <div class="stars">★★★★★</div>
+        <p>Their creatives and Meta Ads strategy gave our brand a premium look and brought consistent leads. They understand both design and business growth.</p>
+        <div class="client"><div class="avatar">PK</div><div><h3>Priya Kapoor</h3><p>Founder, Lifestyle Studio</p></div></div>
+      </article>
+
+      <article class="testimonial reveal fade-up">
+        <div class="stars">★★★★★</div>
+        <p>We needed website, branding, and social media support. The team delivered everything on time with a very polished finish.</p>
+        <div class="client"><div class="avatar">AM</div><div><h3>Amit Mehra</h3><p>Consulting Professional</p></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section light" id="faq">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">FAQ</span>
+      <h2>Answers before we begin.</h2>
+    </div>
+
+    <div class="faq-wrap">
+      <div class="faq-item reveal fade-up"><button class="faq-question">Do you develop business websites?<span class="faq-icon">+</span></button><div class="faq-answer"><p>Yes. We create responsive, modern, SEO-friendly websites for businesses, personal brands, agencies, shops, service providers, and startups.</p></div></div>
+      <div class="faq-item reveal fade-up"><button class="faq-question">Can SEO help my business get more customers?<span class="faq-icon">+</span></button><div class="faq-answer"><p>SEO improves your visibility on search engines, helping potential customers discover your services organically over time.</p></div></div>
+      <div class="faq-item reveal fade-up"><button class="faq-question">Do you run Meta Ads for leads?<span class="faq-icon">+</span></button><div class="faq-answer"><p>Yes. We plan and manage Facebook and Instagram ad campaigns for lead generation, traffic, brand awareness, and sales.</p></div></div>
+      <div class="faq-item reveal fade-up"><button class="faq-question">Are pricing packages fixed?<span class="faq-icon">+</span></button><div class="faq-answer"><p>Packages are starting points. We customize every proposal based on your goals, scope, platform needs, and campaign budget.</p></div></div>
+      <div class="faq-item reveal fade-up"><button class="faq-question">Do you provide support after delivery?<span class="faq-icon">+</span></button><div class="faq-answer"><p>Yes. We offer support, optimization, reporting, and long-term digital marketing assistance depending on the selected plan.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section light" id="contact">
+  <div class="container">
+    <div class="section-title reveal fade-up">
+      <span class="eyebrow">Contact</span>
+      <h2>Let’s build your next stage of growth.</h2>
+      <p>Tell us about your business and we will help you choose the right digital path.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card reveal slide-right">
+        <h3>Send a Message</h3>
+        <form id="contactForm">
+          <div class="form-grid">
+            <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name" required></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com" required></div>
+            <div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" placeholder="+91 00000 00000"></div>
+            <div class="field"><label for="business">Business Name</label><input id="business" name="business" type="text" placeholder="Your business"></div>
+            <div class="field full"><label for="message">Message</label><textarea id="message" name="message" placeholder="Tell us what you want to grow..." required></textarea></div>
+          </div>
+
+          <div class="form-actions">
+            <button class="btn" type="submit">Send Message</button>
+            <a class="btn gold" href="https://wa.me/917877451229" target="_blank" rel="noopener">Chat on WhatsApp</a>
+          </div>
+        </form>
+      </div>
+
+      <aside class="contact-card reveal slide-left">
+        <h3>Contact Details</h3>
+        <div class="contact-list">
+          <a class="contact-line" href="mailto:balajidigitalagency1@gmail.com"><span class="check">✉</span><span>balajidigitalagency1@gmail.com</span></a>
+          <a class="contact-line" href="tel:+917877451229"><span class="check">☎</span><span>+91 7877451229</span></a>
+          <a class="contact-line" href="https://wa.me/917877451229" target="_blank" rel="noopener"><span class="check">☏</span><span>WhatsApp: +91 7877451229</span></a>
+          <div class="contact-line"><span class="check">⌖</span><span>New Delhi, India</span></div>
+        </div>
+
+        <div class="map-placeholder">
+          <div>
+            <h3>Google Maps Placeholder</h3>
+            <p>New Delhi, India</p>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="brand">
+          <img src="profile.jpg" loading="lazy" alt="Balaji Digital Agency logo">
+          <span>Balaji Digital Agency</span>
+        </a>
+        <p style="margin-top:18px;">Your Growth, Our Digital Expertise.</p>
+        <div class="socials" aria-label="Social links">
+          <a class="social" href="#" aria-label="Instagram">I</a>
+          <a class="social" href="#" aria-label="Facebook">F</a>
+          <a class="social" href="#" aria-label="LinkedIn">L</a>
+          <a class="social" href="#" aria-label="YouTube">Y</a>
+        </div>
+      </div>
+
+  <div>
+    <h3>Quick Links</h3>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Services</h3>
+    <ul>
+      <li>Website Development</li>
+      <li>SEO</li>
+      <li>Meta Ads</li>
+      <li>Google Ads</li>
+      <li>Branding</li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>Contact</h3>
+    <ul>
+      <li><a href="mailto:balajidigitalagency1@gmail.com">Email Us</a></li>
+      <li><a href="tel:+917877451229">Call Now</a></li>
+      <li><a href="https://wa.me/917877451229" target="_blank" rel="noopener">WhatsApp</a></li>
+      <li>New Delhi, India</li>
+    </ul>
+  </div>
+</div>
+
+<div class="container copyright">© <span id="year"></span> Balaji Digital Agency. All rights reserved.</div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/917877451229" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">☏</a>
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+  <script>
+    const loader = document.getElementById('loader');
+    const nav = document.getElementById('nav');
+    const navLinks = document.getElementById('navLinks');
+    const menuToggle = document.getElementById('menuToggle');
+    const progress = document.getElementById('progress');
+    const backTop = document.getElementById('backTop');
+    const cursorGlow = document.getElementById('cursorGlow');
+    const particles = document.getElementById('particles');
+    const typingText = document.getElementById('typingText');
+    const year = document.getElementById('year');
+
+    window.addEventListener('load', () => {
+      setTimeout(() => loader.classList.add('hidden'), 650);
+    });
+
+    year.textContent = new Date().getFullYear();
+
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    const typingPhrases = [
+      'Websites that convert.',
+      'Ads that bring leads.',
+      'SEO that builds visibility.',
+      'Creative that makes brands memorable.'
+    ];
+
+    let phraseIndex = 0;
+    let charIndex = 0;
+    let deleting = false;
+
+    function typeLoop() {
+      const phrase = typingPhrases[phraseIndex];
+      typingText.textContent = deleting ? phrase.slice(0, charIndex--) : phrase.slice(0, charIndex++);
+
+      if (!deleting && charIndex > phrase.length + 8) deleting = true;
+
+      if (deleting && charIndex < 0) {
+        deleting = false;
+        phraseIndex = (phraseIndex + 1) % typingPhrases.length;
+      }
+
+      setTimeout(typeLoop, deleting ? 45 : 75);
+    }
+
+    typeLoop();
+
+    function updateScroll() {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      progress.style.width = `${docHeight ? (scrollTop / docHeight) * 100 : 0}%`;
+      nav.classList.toggle('scrolled', scrollTop > 24);
+      backTop.classList.toggle('visible', scrollTop > 600);
+    }
+
+    window.addEventListener('scroll', updateScroll, { passive: true });
+    updateScroll();
+
+    backTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    document.addEventListener('mousemove', event => {
+      cursorGlow.style.left = `${event.clientX}px`;
+      cursorGlow.style.top = `${event.clientY}px`;
+
+      document.querySelectorAll('[data-parallax]').forEach(item => {
+        const strength = Number(item.dataset.parallax);
+        const x = (event.clientX - window.innerWidth / 2) * strength * 0.08;
+        const y = (event.clientY - window.innerHeight / 2) * strength * 0.08;
+        item.style.transform = `translate(${x}px, ${y}px)`;
+      });
+    });
+
+    for (let i = 0; i < 42; i++) {
+      const particle = document.createElement('span');
+      particle.className = 'particle';
+      particle.style.left = `${Math.random() * 100}%`;
+      particle.style.animationDuration = `${8 + Math.random() * 12}s`;
+      particle.style.animationDelay = `${Math.random() * 8}s`;
+      particle.style.opacity = `${0.25 + Math.random() * 0.55}`;
+      particles.appendChild(particle);
+    }
+
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.14 });
+
+    document.querySelectorAll('.reveal').forEach(item => revealObserver.observe(item));
+
+    const counters = document.querySelectorAll('.counter');
+    const counterObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+
+        const counter = entry.target;
+        const target = Number(counter.dataset.target);
+        let current = 0;
+        const increment = Math.max(1, Math.ceil(target / 70));
+
+        const timer = setInterval(() => {
+          current += increment;
+
+          if (current >= target) {
+            current = target;
+            clearInterval(timer);
+          }
+
+          counter.textContent = target === 24 ? `${current}/7` : `${current}+`;
+        }, 24);
+
+        counterObserver.unobserve(counter);
+      });
+    }, { threshold: .7 });
+
+    counters.forEach(counter => counterObserver.observe(counter));
+
+    document.querySelectorAll('.faq-question').forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.parentElement;
+        const answer = item.querySelector('.faq-answer');
+        const open = item.classList.contains('active');
+
+        document.querySelectorAll('.faq-item').forEach(faq => {
+          faq.classList.remove('active');
+          faq.querySelector('.faq-answer').style.maxHeight = null;
+        });
+
+        if (!open) {
+          item.classList.add('active');
+          answer.style.maxHeight = `${answer.scrollHeight}px`;
+        }
+      });
+    });
+
+    document.querySelectorAll('.tilt').forEach(card => {
+      card.addEventListener('mousemove', event => {
+        const rect = card.getBoundingClientRect();
+        const x = event.clientX - rect.left;
+        const y = event.clientY - rect.top;
+        const rotateX = ((y / rect.height) - .5) * -8;
+        const rotateY = ((x / rect.width) - .5) * 8;
+        card.style.transform = `perspective(900px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px)`;
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+      });
+    });
+
+    document.querySelectorAll('.btn').forEach(button => {
+      button.addEventListener('click', event => {
+        const circle = document.createElement('span');
+        const diameter = Math.max(button.clientWidth, button.clientHeight);
+        const radius = diameter / 2;
+        const rect = button.getBoundingClientRect();
+
+        circle.style.width = circle.style.height = `${diameter}px`;
+        circle.style.left = `${event.clientX - rect.left - radius}px`;
+        circle.style.top = `${event.clientY - rect.top - radius}px`;
+        circle.classList.add('ripple');
+
+        const ripple = button.querySelector('.ripple');
+        if (ripple) ripple.remove();
+
+        button.appendChild(circle);
+      });
+    });
+
+    document.getElementById('contactForm').addEventListener('submit', event => {
+      event.preventDefault();
+
+      const form = event.currentTarget;
+      const data = new FormData(form);
+      const subject = encodeURIComponent('New enquiry from Balaji Digital Agency website');
+      const body = encodeURIComponent(
+        `Name: ${data.get('name')}\nEmail: ${data.get('email')}\nPhone: ${data.get('phone')}\nBusiness: ${data.get('business')}\n\nMessage:\n${data.get('message')}`
+      );
+
+      window.location.href = `mailto:balajidigitalagency1@gmail.com?subject=${subject}&body=${body}`;
+      form.reset();
+    });
+  </script>
+</body>
+</html>
